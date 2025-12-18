@@ -41,7 +41,7 @@ pathfinding or priority queue libraries.
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Java
 - Android Studio
@@ -79,7 +79,7 @@ pathfinding or priority queue libraries.
 
 ---
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 Algorithms are evaluated using the following metrics:
 - **Execution Time (ms)** – measured via `System.nanoTime()`
@@ -111,7 +111,7 @@ Tests were conducted under identical conditions for fairness.
 
 ---
 
-## ▶ How to Run
+##  How to Run
 
 1. Open the project in **Android Studio**
 2. Build and run on an emulator or physical Android device
