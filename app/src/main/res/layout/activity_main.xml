@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#FAFAFA">
+<!-- Sayfa düzeni sağlar-->
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Algoritma Seçiniz..."
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="#E0E0E0"/>
+<!-- İstatistikler ve biraza yazı düzeni-->
+
+    <com.example.pathfindingvisualizeragorithm.PathfindingView
+        android:id="@+id/pathfindingView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#FFFFFF"/>
+<!-- Harita düzeni-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+<!-- Buton düzenlemesi-->
+        <Button
+            android:id="@+id/btnRunBFS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="BFS"
+            android:textSize="12sp"
+            android:backgroundTint="#2196F3"
+            android:layout_marginEnd="2dp"/>
+<!-- BFS butonu-->
+
+        <Button
+            android:id="@+id/btnRunDijkstra"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Dijkstra Algorithm"
+            android:textSize="12sp"
+            android:backgroundTint="#FF9800"
+            android:layout_marginEnd="2dp"/>
+<!-- Dijkstra butonu-->
+
+        <Button
+            android:id="@+id/btnRunAStar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A* Star"
+            android:textSize="12sp"
+            android:backgroundTint="#9C27B0"/>
+    </LinearLayout>
+<!-- Buton düzenlemesi-->
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="TEMİZLE / YENİ HARİTA"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:backgroundTint="#F44336"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

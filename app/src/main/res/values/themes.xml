@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Android’de tema, renk ve stil gibi kaynakların tutulduğu kök etikettir.-->
+
+    <style name="Theme.PathfindingVisualizerAgorithm" parent="Theme.AppCompat.Light.DarkActionBar" />
+</resources>
